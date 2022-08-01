@@ -1,0 +1,52 @@
+{
+  "name": "electron-vite-react",
+  "productName": "Electron",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Vite React Electron boilerplate.",
+  "author": "草鞋没号 <308487730@qq.com>",
+  "license": "MIT",
+  "main": "dist/electron/main/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && electron-builder"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "latest",
+    "@types/styled-components": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "@vitejs/plugin-react": "latest",
+    "electron": "latest",
+    "electron-builder": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb-typescript": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsx-a11y": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "fs-extra": "latest",
+    "husky": "latest",
+    "lodash": "latest",
+    "prettier": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sass": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-plugin-electron": "latest"
+  },
+  "env": {
+    "VITE_DEV_SERVER_HOST": "127.0.0.1",
+    "VITE_DEV_SERVER_PORT": 7777
+  },
+  "packageManager": "yarn@3.2.2"
+}
